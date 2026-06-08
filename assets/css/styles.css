@@ -1212,14 +1212,13 @@ button {
 }
 
 .article-hero::before {
-  animation: articleImagePop 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: articleImagePop 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 
   background-image: var(--hero-image);
   background-position: center center;
   background-repeat: no-repeat;
 
-  /* Automatically fill as much space as possible */
-  background-size: min(1400px, 96vw) auto;
+  background-size: min(2200px, 125vw) auto;
 
   background-color: #101010;
 
@@ -1292,7 +1291,7 @@ button {
 .article-hero__category,
 .article-hero__title,
 .article-hero__meta {
-  animation: articleHeroIn 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  animation: articleHeroIn 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
   opacity: 0;
   transform: translate3d(0, 26px, 0);
   transition:
