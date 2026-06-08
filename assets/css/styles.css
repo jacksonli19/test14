@@ -1211,8 +1211,8 @@ button {
 }
 
 .article-hero::before {
-  animation: articleImagePop .9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  background: var(--hero-image) center / contain no-repeat;
+  animation: articleImagePop 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  background: var(--hero-image) center / cover no-repeat;
   background-color: #101010;
   content: "";
   inset: -103px -10vw -55px;
